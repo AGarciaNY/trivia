@@ -17,7 +17,7 @@ function timer() {
     $("#timer").html(timeleft);
 
     if (timeleft === 0) {
-      timer();
+      location.reload(false);
     }
   }, 1000);
 }

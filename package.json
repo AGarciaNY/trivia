@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://scriptedcurriculum.github.io/studio2",
   "dependencies": {
+    "@emotion/core": "10.0.14",
     "firebase": "^5.5.7",
     "lodash": "^4.17.11",
     "react": "^16.6.1",

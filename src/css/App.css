@@ -1,10 +1,10 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: "Sniglet", cursive;
   font-size: 20px;
 }
-/* i didi it */
+
 button {
   width: 200px;
   font-family: "Sniglet", cursive;
@@ -93,4 +93,4 @@ body {
   animation: bgcolor 12s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
-}
+} */

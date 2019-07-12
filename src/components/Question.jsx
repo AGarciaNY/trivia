@@ -3,6 +3,11 @@ import QuestionText from "./QuestionText.jsx";
 import Reset from "./Reset.jsx";
 import Answer from "./Answer.jsx";
 import Score from "./Score.jsx";
+/** @jsx jsx */
+import { jsx, css } from "@emotion/core";
+const base = css`
+  color: hotpink;
+`;
 
 // import components
 var can = 0;
@@ -40,6 +45,15 @@ class Question extends Component {
           color={this.state.questioncolor}
           question_text={this.props.currentQuestion.question_text}
         />
+        <div>
+          <h1
+            css={css`
+              ${base};
+            `}
+          >
+            hi there
+          </h1>
+        </div>
         <div className="buckets">
           <Answer
             answertext={this.props.currentQuestion.choices[0]}
